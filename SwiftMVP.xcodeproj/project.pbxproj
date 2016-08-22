@@ -17,6 +17,7 @@
 		827EE7661D67634C0074436D /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827EE7651D67634C0074436D /* TaskService.swift */; };
 		827EE7691D6763760074436D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827EE7681D6763760074436D /* Task.swift */; };
 		827EE76B1D6763B20074436D /* SwinjectStoryboard+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827EE76A1D6763B20074436D /* SwinjectStoryboard+Setup.swift */; };
+		82F641EC1D6B0EAD00DCF39F /* TaskServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F641EB1D6B0EAD00DCF39F /* TaskServiceImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		827EE7651D67634C0074436D /* TaskService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
 		827EE7681D6763760074436D /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		827EE76A1D6763B20074436D /* SwinjectStoryboard+Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwinjectStoryboard+Setup.swift"; sourceTree = "<group>"; };
+		82F641EB1D6B0EAD00DCF39F /* TaskServiceImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskServiceImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				827EE7651D67634C0074436D /* TaskService.swift */,
+				82F641EB1D6B0EAD00DCF39F /* TaskServiceImpl.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F641EC1D6B0EAD00DCF39F /* TaskServiceImpl.swift in Sources */,
 				827EE7661D67634C0074436D /* TaskService.swift in Sources */,
 				827EE76B1D6763B20074436D /* SwinjectStoryboard+Setup.swift in Sources */,
 				825001591D67613E00E11FAB /* AppDelegate.swift in Sources */,

@@ -15,7 +15,7 @@ extension SwinjectStoryboard {
             c.presenter = r.resolve(TaskListPresenter.self)
         }
         
-        defaultContainer.register(TaskService.self) { _ in TaskService() }
+        defaultContainer.register(TaskService.self) { _ in TaskServiceImpl() }
         
         defaultContainer.register(TaskListPresenter.self.self) { r in
             TaskListPresenter(taskService: r.resolve(TaskService.self)!)
